@@ -14,7 +14,6 @@ mongoose.set("strictQuery", false);
 
 const app = express();
 app.use((req, res, next) => {
-  console.log("im");
   res.header("Access-Control-Allow-Origin", "*");
   res.header(
     "Access-Control-Allow-Headers",
